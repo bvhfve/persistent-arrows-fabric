@@ -1,0 +1,4 @@
+accessWidener v2 named
+
+# Minimal access widener - using reflection-based approach for NBT handling
+# No direct field access needed since we use reflection for compatibility

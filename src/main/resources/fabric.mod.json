@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "persistentarrows",
+  "version": "${version}",
+  "name": "Persistent Arrows",
+  "description": "Lingering arrows that instantly kill mobs remain floating like in Bedrock Edition",
+  "authors": ["PersistentArrows"],
+  "license": "MIT",
+  "icon": "persistentarrows.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.persistentarrows.PersistentArrows"]
+  },
+  "mixins": [
+    "persistentarrows.mixins.json"
+  ],
+  "accessWidener": "persistentarrows.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric-api": "*",
+    "minecraft": "1.21.7"
+  }
+}

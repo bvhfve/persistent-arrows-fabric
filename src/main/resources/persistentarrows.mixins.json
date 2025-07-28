@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.persistentarrows.mixin",
+  "refmap": "persistentarrows.refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PersistentArrowMixin",
+    "AreaEffectCloudEntityMixin",
+    "LivingEntityMixin",
+	"EntityMixin",
+    "ServerWorldMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
