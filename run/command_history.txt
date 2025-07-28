@@ -1,0 +1,26 @@
+/summon minecraft:silverfish
+/difficulty hard
+/summon minecraft:silverfish
+/kill @e[type=minecraft:silverfish]
+/tick freeze
+/tick unfreeze
+/kill @e[type=minecraft:silverfish]
+/kill @e[type=minecraft:experience_orb]
+/tick freeze
+/tick unfreeze
+/kill @e[type=minecraft:experience_orb]
+/kill @e[type=minecraft:silverfish]
+/tick freeze
+/tick unfreeze
+/kill @e[type=minecraft:silverfish]
+/kill @e[type=minecraft:experience_orb]
+/kill @e[type=minecraft:silverfish]
+/tick freeze
+/tick step 1
+/tick unfreeze
+/kill @e[type=minecraft:silverfish]
+/kill @e[type=minecraft:experience_orb]
+/kill @e[type=minecraft:arrow]
+/time set day
+/gamerule doDaylightCycle false
+/kill @e[type=minecraft:experience_orb]
